@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // State
     let products = JSON.parse(localStorage.getItem('products')) || [];
     let editingId = null;
-
+ 
     // DOM Elements
     const stockInput = document.querySelector('#productStock');
     const previewStock = document.querySelector('#previewProductStock');
