@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         const randomPost = apiData[Math.floor(Math.random() * apiData.length)];
                         product.apiData = randomPost;
                         
-                        showLoading(false);
+                        showLoading(true);
                         
                         // Show success message with API info
                         setTimeout(() => {
